@@ -1,0 +1,316 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 5000px;
+}
+#imperial_image{
+    background-image: linear-gradient( rgba(0 ,0, 0, 0.7),rgba(0,0,0,0.7)), url(../images/hero-bg.jpg);
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+}
+.content{
+   text-align: center;
+   max-width: 900px;
+   margin: auto;
+   padding-top: 290px;
+}
+.content h1{
+    color: white;
+    font-family: sans-serif;
+     font-weight: 300;                   /*difference b/w px and without  */
+    font-size: 40px;
+    padding-top: 14px;
+}
+.content h2{
+    color: gray;
+    font-size: 39px;
+    font-weight: 300;
+    font-family: sans-serif;
+    padding-top: 14px;
+
+
+}
+.content button{
+  padding: 10px 45px;
+  margin-top: 14px;
+}
+.content .btn1{
+    background: #03c4eb;
+    color: white;
+    border:2px solid #03c4eb;
+}
+.content .btn2{
+    background: transparent;
+    border: 2px solid white;
+    color: whitesmoke;
+    margin-left: 23px;
+}
+header{
+    background: rgb(17, 15, 15);
+    height: 90px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.logo img{
+    height: 80px;
+    float: left;
+    padding-top: 25px;
+    
+
+}
+.achor{
+    float: right;
+    padding-top: 30px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.achor a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    font-family: sans-serif;
+}
+.about_head{
+    text-align: center;
+    padding-top: 35px;
+    font-family: sans-serif;
+}
+
+.about_paragraph {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+.about_img img{
+    height: 400px;
+    margin-right: 470px;
+}
+.about_img{
+    float: left;
+}
+.about_para p{
+    font-family: sans-serif;
+    word-spacing: 3px;
+    text-align: justify;
+    line-height: 40px;
+    
+    
+   
+}
+.about_para h1{
+    color: gray;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+#our_work h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.our_images img{
+    height: 400px;
+    margin: 25px;
+    box-shadow: 10px 10px 20px rgba(0, 0,0, 0.5);
+}
+#subscribe{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../images/subscribe-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    opacity: 0.3px;
+    background-attachment: fixed;
+}
+.sub_content {
+float: left;
+color: white;
+padding-top: 110px;
+font-family: sans-serif;
+}
+.sub_content h1{
+    padding-bottom: 20px;
+}
+.sub_btn{
+    float: right;
+    padding-top: 110px;
+    background: transparent;
+}
+
+.sub_btn .btn3{
+    background: transparent;
+    padding: 8px   30px;
+    border: 2px solid white;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+#test{
+   
+ background-color: black;
+    height: 900px;
+    font-family: sans-serif;
+}
+.test_content h1{
+    text-align: center;
+    /* text-decoration: underline; */
+    color: white;
+    padding-top: 30px;
+    font-size: 30px;
+    border-bottom: 2px solid white;
+    width: 190px;
+    margin: auto;
+    
+}
+.test_content p{
+    text-align:center;
+    color: white;
+    padding-top: 20px;
+}
+.test_img img{
+    height: 300px;
+    border-radius: 50%;
+    border: 7px solid white;
+    float: left;
+    margin-right: 300px;
+
+}
+.img_content p {
+    margin-top: 50px;
+color:gray;
+background: white;
+width:880px;
+padding: 80px;
+font-family: sans-serif;
+float: right;
+text-indent: 60px;
+font-style: italic;
+line-height: 28px;
+}
+.float_right{
+    float: right;
+    margin-top: 105px;
+    margin-left:55px !important;
+    width: 300px;
+
+}
+.float_left{
+    float: left;
+    margin-top: 95px;
+    margin-right: 95px;
+}
+
+#team{
+    padding: 10px;
+    height: 70vh;
+    margin-bottom: 20px;
+}
+#team h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 33px;
+    font-family: sans-serif;
+}
+#team p{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+#team .card{
+    float: left;
+    margin-left: 10px;
+    margin-top: 30px;
+   
+}
+#team .card_img img{
+    height: 350px;
+    margin-left: 44px;
+}
+.card_heading h2{
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 350;
+    font-style: 17px;
+    text-align: center;
+}
+.card_heading h3{
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 350;
+    text-align: center;
+
+}
+#final{
+    background-color: black;
+    height: 500px;
+    /* margin-top: 450px; */
+}
+.final_head{
+    color: white;
+    margin: 44px ;
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.name input{
+    width: 600px;
+    padding: 10px;
+    border: 2px solid gray;
+    background-color: black;
+    float: left;
+    margin-left: 200px;
+    margin-right: 33px;
+    color: white;
+
+}
+.email input{
+    width: 600px;
+    padding: 10px;
+    border: 2px solid gray;
+    background-color: black;
+    
+}
+.subject input{
+    width: 1235px;
+    margin-left: 200px;
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid gray;
+    background-color: black;
+}
+.tellmeabout textarea{
+    width: 1235px;
+    margin-left: 200px;
+    margin-top: 30px;
+   
+    border: 2px solid gray;
+    background-color: black;
+
+}
+#final button{
+    background-color: transparent;
+    margin-left: 200px;
+    margin-top: 30px;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+#final{
+    padding: 20px;
+    background-color: black;
+
+}
